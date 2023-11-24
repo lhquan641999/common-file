@@ -1,8 +1,6 @@
 name: Sync All Branches
 
-on:
-  schedule:
-    - cron: '0 * * * *' # Adjust the cron job timing as needed
+
 
 jobs:
   sync:
